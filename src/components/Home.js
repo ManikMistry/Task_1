@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { Tilt } from "react-tilt";
 import styled from "styled-components";
 import logo from "../images/Screenshot from 2023-11-22 09-46-52.png";
 import downArrow from "../images/down-arrow.png";
@@ -101,168 +102,172 @@ function Home() {
 
           {/* Card 1 */}
           <div className="Card1-container2">
-            <div className="card">
-              <div className="card-heading">Basic</div>
-              <div className="price-line">
-                <span className="price">$89.99/mo</span>
-                <div className="red-line"></div>
-              </div>
-              <div className="larger-price">$9.99/mo</div>
-              <button className="get-started-button">
-                Get Started <span className="arrow">&#8594;</span>
-              </button>
-              <div className="divider-line"></div>
-              <div className="features">
-                <p className="feature-heading">What you'll get:</p>
-                <div className="card-i">
-                  <img src={User} alt="..." />
-                  <p>Upto 25 Users</p>
+            <Tilt>
+              <div className="card">
+                <div className="card-heading">Basic</div>
+                <div className="price-line">
+                  <span className="price">$89.99/mo</span>
+                  <div className="red-line"></div>
                 </div>
-                <div className="card-i">
-                  <img src={CouldImg} alt="..." />
-                  <p>Upto 25gb Storage</p>
+                <div className="larger-price">$9.99/mo</div>
+                <button className="get-started-button">
+                  Get Started <span className="arrow">&#8594;</span>
+                </button>
+                <div className="divider-line"></div>
+                <div className="features">
+                  <p className="feature-heading">What you'll get:</p>
+                  <div className="card-i">
+                    <img src={User} alt="..." />
+                    <p>Upto 25 Users</p>
+                  </div>
+                  <div className="card-i">
+                    <img src={CouldImg} alt="..." />
+                    <p>Upto 25gb Storage</p>
+                  </div>
+                  <div className="card-i">
+                    <img src={EmailIcon} alt="..." />
+                    <p>Email Support</p>
+                  </div>
                 </div>
-                <div className="card-i">
-                  <img src={EmailIcon} alt="..." />
-                  <p>Email Support</p>
-                </div>
-              </div>
-              <div className="footer-text">
-                <p>EXPLORE FEATURE</p>
-              </div>
-            </div>
-            <div className="card">
-              <div className="card-heading">Standard</div>
-              <div className="price-line">
-                <span className="price">$89.99/mo</span>
-                <div className="red-line"></div>
-              </div>
-              <div className="larger-price">$99.99/mo</div>
-              <button className="get-started-button">
-                Get Started <span className="arrow">&#8594;</span>
-              </button>
-              <div className="divider-line"></div>
-              <div className="features">
-                <p className="feature-heading">What you'll get:</p>
-                <div className="card-i">
-                  <img src={User} alt="..." />
-                  <p>Upto 50 Users</p>
-                </div>
-                <div className="card-i">
-                  <img src={CouldImg} alt="..." />
-                  <p>Upto 60gb Storage</p>
-                </div>
-                <div className="card-i">
-                  <img src={EmailIcon} alt="..." />
-                  <p>Email+Chat Support</p>
+                <div className="footer-text">
+                  <p>EXPLORE FEATURE</p>
                 </div>
               </div>
-              <div className="footer-text">
-                <p>EXPLORE FEATURE</p>
-              </div>
-            </div>
+            </Tilt>
 
+            <Tilt>
+              <div className="card">
+                <div className="card-heading">Standard</div>
+                <div className="price-line">
+                  <span className="price">$89.99/mo</span>
+                  <div className="red-line"></div>
+                </div>
+                <div className="larger-price">$99.99/mo</div>
+                <button className="get-started-button">
+                  Get Started <span className="arrow">&#8594;</span>
+                </button>
+                <div className="divider-line"></div>
+                <div className="features">
+                  <p className="feature-heading">What you'll get:</p>
+                  <div className="card-i">
+                    <img src={User} alt="..." />
+                    <p>Upto 50 Users</p>
+                  </div>
+                  <div className="card-i">
+                    <img src={CouldImg} alt="..." />
+                    <p>Upto 60gb Storage</p>
+                  </div>
+                  <div className="card-i">
+                    <img src={EmailIcon} alt="..." />
+                    <p>Email+Chat Support</p>
+                  </div>
+                </div>
+                <div className="footer-text">
+                  <p>EXPLORE FEATURE</p>
+                </div>
+              </div>
+            </Tilt>
 
-            <div className="card">
-              <div className="card-heading">Premium</div>
-              <div className="price-line">
-                <span className="price">$389.99/mo</span>
-                <div className="red-line"></div>
-              </div>
-              <div className="larger-price">$199.99/mo</div>
-              <button className="get-started-button">
-                Get Started <span className="arrow">&#8594;</span>
-              </button>
-              <div className="divider-line"></div>
-              <div className="features">
-                <p className="feature-heading">What you'll get:</p>
-                <div className="card-i">
-                  <img src={User} alt="..." />
-                  <p>Upto 75 Users</p>
+            <Tilt>
+              <div className="card">
+                <div className="card-heading">Premium</div>
+                <div className="price-line">
+                  <span className="price">$389.99/mo</span>
+                  <div className="red-line"></div>
                 </div>
-                <div className="card-i">
-                  <img src={CouldImg} alt="..." />
-                  <p>Upto 100gb Storage</p>
+                <div className="larger-price">$199.99/mo</div>
+                <button className="get-started-button">
+                  Get Started <span className="arrow">&#8594;</span>
+                </button>
+                <div className="divider-line"></div>
+                <div className="features">
+                  <p className="feature-heading">What you'll get:</p>
+                  <div className="card-i">
+                    <img src={User} alt="..." />
+                    <p>Upto 75 Users</p>
+                  </div>
+                  <div className="card-i">
+                    <img src={CouldImg} alt="..." />
+                    <p>Upto 100gb Storage</p>
+                  </div>
+                  <div className="card-i">
+                    <img src={EmailIcon} alt="..." />
+                    <p>Email+Chat+Whatsapp Support</p>
+                  </div>
                 </div>
-                <div className="card-i">
-                  <img src={EmailIcon} alt="..." />
-                  <p>Email+Chat+Whatsapp Support</p>
+                <div className="footer-text">
+                  <p>EXPLORE FEATURE</p>
                 </div>
               </div>
-              <div className="footer-text">
-                <p>EXPLORE FEATURE</p>
-              </div>
-            </div>
-            
+            </Tilt>
           </div>
 
           {/* Card Container 2 */}
           <div className="Card2-container2">
-            <div className="card2">
-              <div className="left-side">
-                <div className="green-text">
-                  <p>Free forever</p>
+              <div className="card2">
+                <div className="left-side">
+                  <div className="green-text">
+                    <p>Free forever</p>
+                  </div>
+                  <h1>Free Starter</h1>
+                  <p>This is a paragraph about the Free Starter plan.</p>
+                  <button className="get-started-button">
+                    Get Started <span className="arrow">&#8594;</span>
+                  </button>
                 </div>
-                <h1>Free Starter</h1>
-                <p>This is a paragraph about the Free Starter plan.</p>
-                <button className="get-started-button">
-                  Get Started <span className="arrow">&#8594;</span>
-                </button>
-              </div>
-              <div className="right-side">
-                <div className="what-you-get">
-                  <h4>What you will get:</h4>
-                  <div className="card-i">
-                    <img src={User} alt="..." />
-                    <p>Upto 25 Users</p>
-                  </div>
+                <div className="right-side">
+                  <div className="what-you-get">
+                    <h4>What you will get:</h4>
+                    <div className="card-i">
+                      <img src={User} alt="..." />
+                      <p>Upto 25 Users</p>
+                    </div>
 
-                  <div className="card-i">
-                    <img src={CouldImg} alt="..." />
-                    <p>Upto 25gb Storage</p>
-                  </div>
+                    <div className="card-i">
+                      <img src={CouldImg} alt="..." />
+                      <p>Upto 25gb Storage</p>
+                    </div>
 
-                  <div className="card-i">
-                    <img src={EmailIcon} alt="..." />
-                    <p>Email Support</p>
+                    <div className="card-i">
+                      <img src={EmailIcon} alt="..." />
+                      <p>Email Support</p>
+                    </div>
                   </div>
+                  <p>This is a paragraph about what users will get.</p>
                 </div>
-                <p>This is a paragraph about what users will get.</p>
               </div>
-            </div>
-
-            <div className="card2">
-              <div className="left-side">
-                <div className="green-text">
-                  <p>Free forever</p>
+              <div className="card2">
+                <div className="left-side">
+                  <div className="green-text">
+                    <p>Free forever</p>
+                  </div>
+                  <h1>Free Starter</h1>
+                  <p>This is a paragraph about the Free Starter plan.</p>
+                  <button className="get-started-button">
+                    Get Started <span className="arrow">&#8594;</span>
+                  </button>
                 </div>
-                <h1>Free Starter</h1>
-                <p>This is a paragraph about the Free Starter plan.</p>
-                <button className="get-started-button">
-                  Get Started <span className="arrow">&#8594;</span>
-                </button>
-              </div>
-              <div className="right-side">
-                <div className="what-you-get">
-                  <h4>What you will get:</h4>
-                  <div className="card-i">
-                    <img src={User} alt="..." />
-                    <p>Upto 25 Users</p>
-                  </div>
+                <div className="right-side">
+                  <div className="what-you-get">
+                    <h4>What you will get:</h4>
+                    <div className="card-i">
+                      <img src={User} alt="..." />
+                      <p>Upto 25 Users</p>
+                    </div>
 
-                  <div className="card-i">
-                    <img src={CouldImg} alt="..." />
-                    <p>Upto 25gb Storage</p>
-                  </div>
+                    <div className="card-i">
+                      <img src={CouldImg} alt="..." />
+                      <p>Upto 25gb Storage</p>
+                    </div>
 
-                  <div className="card-i">
-                    <img src={EmailIcon} alt="..." />
-                    <p>Email Support</p>
+                    <div className="card-i">
+                      <img src={EmailIcon} alt="..." />
+                      <p>Email Support</p>
+                    </div>
                   </div>
+                  <p>This is a paragraph about what users will get.</p>
                 </div>
-                <p>This is a paragraph about what users will get.</p>
               </div>
-            </div>
           </div>
         </div>
         <div className="container3"></div>
